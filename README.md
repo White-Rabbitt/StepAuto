@@ -1,5 +1,2 @@
-# StepAuto
-Stepik - Autotest course with Selenium-Python
-q	with
-
-qweqwe
+Stepik course Selenium with Python
+Added previous lessons
