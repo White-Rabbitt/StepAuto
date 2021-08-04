@@ -9,7 +9,7 @@ class test_reg_page(unittest.TestCase):
         browser = webdriver.Chrome()
         browser.get(link)
 
-        input1 = browser.find_element_by_xpath("//input[@class='form-control first' and @required]")
+        input1 = browser.find_element_by_xpath("//input[@class='form-control SeleniumPython' and @required]")
         input1.send_keys("Ivan")
 
         input2 = browser.find_element_by_xpath("//input[@class='form-control second' and @required]")
@@ -32,7 +32,7 @@ class test_reg_page(unittest.TestCase):
         browser = webdriver.Chrome()
         browser.get(link)
 
-        input1 = browser.find_element_by_xpath("//input[@class='form-control first' and @required]")
+        input1 = browser.find_element_by_xpath("//input[@class='form-control SeleniumPython' and @required]")
         input1.send_keys("Ivan")
 
         input2 = browser.find_element_by_xpath("//input[@class='form-control second' and @required]")

@@ -4,7 +4,7 @@ link = "http://suninjuly.github.io/registration1.html"
 try:
     browser = webdriver.Chrome()
     browser.get(link)
-    input1 = browser.find_element_by_css_selector ("input[placeholder='Input your first name']")
+    input1 = browser.find_element_by_css_selector ("input[placeholder='Input your SeleniumPython name']")
     input1.send_keys("Vasya")
     input2 = browser.find_element_by_css_selector ("input[placeholder='Input your last name']")
     input2.send_keys("Pupkin")
