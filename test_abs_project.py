@@ -25,7 +25,7 @@ class test_reg_page(unittest.TestCase):
 
         welcome_text_elt = browser.find_element_by_tag_name("h1")
         welcome_text = welcome_text_elt.text
-        self.assertEqual("Поздравляем! Вы успешно зарегистировались!", welcome_text,
+        self.assertEqual("Congratulations! You have successfully registered!", welcome_text,
                          "Registration page #2 — not passed")
 
     def test_registration_page_1(self):
