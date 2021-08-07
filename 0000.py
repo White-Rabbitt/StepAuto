@@ -1,7 +1,7 @@
-s = 'My Name is Julia'
-if 'is' in s:
-    print('Substring found')
+import pytest
+import time
+import math
 
-index = s.find('is')
-if index == 8:
-    print(f'Substring found at index {index}')
+from selenium import webdriver
+answer = math.log(int(time.time()))
+print(answer)
