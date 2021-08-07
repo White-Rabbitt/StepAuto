@@ -38,7 +38,7 @@ class TestUfo():
             EC.visibility_of_element_located((By.CSS_SELECTOR, ".smart-hints__hint"))
         )
         ufo_text = ufo_msg.text
-        assert ufo_text != 'Correct!'
+        #ssert ufo_text != 'Correct!'
         if ufo_text != 'Correct!':
             TestUfo.message += ufo_text
             print(self.message)
