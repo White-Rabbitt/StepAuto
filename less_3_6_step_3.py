@@ -17,7 +17,7 @@ def browser():
     print("\nquit browser..")
     browser.quit()
 
-123123
+
 class TestUfo():
     message = ''
     massive = ["236895/step/1", "236896/step/1", "236897/step/1", "236898/step/1", "236899/step/1", "236903/step/1",
